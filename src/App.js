@@ -1,11 +1,13 @@
 
 import './App.css';
+import Event from './Pages/Event/Event/Event';
 import Jobs from './Pages/Jobs/Jobs';
 
 function App() {
   return (
     <div className="">
-      <Jobs></Jobs>
+      {/* <Jobs></Jobs> */}
+      <Event />
     </div>
   );
 }
