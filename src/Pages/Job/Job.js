@@ -4,7 +4,7 @@ import Paper from '@mui/material/Paper';
 import React from 'react';
 
 const Job = ({details}) => {
-    const {salary, applicantAge, company, applicantGender, applicationDeadline, educationalRequirements, employmentStatus, employmentType, experienceRequirements, jobCategory, jobKeySellingPoints, jobLocation, jobResponsibilities, jobTitle, jobVacancy, publishedOn } = details;
+    const {salary, applicantAge, company, applicantGender, applicationDeadline, educationalRequirements, employmentStatus, employmentType, experienceRequirements, experienceYear, jobCategory, jobKeySellingPoints, jobLocation, jobResponsibilities, jobTitle, jobVacancy, publishedOn } = details;
     
     const Item = styled(Paper)(({ theme }) => ({
         backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',

@@ -1,13 +1,15 @@
 
 import './App.css';
-import Event from './Pages/Event/Event/Event';
-import Jobs from './Pages/Jobs/Jobs';
+import Categoryes from './Pages/Categoryes/Categoryes';
+// import Event from './Pages/Event/Event/Event';
+// import Jobs from './Pages/Jobs/Jobs';
 
 function App() {
   return (
     <div className="">
-      {/* <Jobs></Jobs> */}
-      <Event />
+      <Categoryes />
+      {/* <Jobs />
+      <Event /> */}
     </div>
   );
 }

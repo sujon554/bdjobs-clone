@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Grid } from '@mui/material';
 import { useEffect, useState } from "react";
 import Job from '../Job/Job';
-import { Box } from '@mui/system';
 
 const Jobs = () => {
     const [ job , setJob] = useState([]);
@@ -23,8 +22,7 @@ const Jobs = () => {
                   key={details.key}
                 details={details}
                 ></Job>)
-           }
-       
+           } 
       </Grid>
       </Container>
     );
